@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lod-site/static/css/main.e6c13ad2.css",
-    "main.js": "/lod-site/static/js/main.6b93fa95.js",
+    "main.js": "/lod-site/static/js/main.94cd7368.js",
     "static/js/787.3822e41d.chunk.js": "/lod-site/static/js/787.3822e41d.chunk.js",
     "index.html": "/lod-site/index.html",
     "main.e6c13ad2.css.map": "/lod-site/static/css/main.e6c13ad2.css.map",
-    "main.6b93fa95.js.map": "/lod-site/static/js/main.6b93fa95.js.map",
+    "main.94cd7368.js.map": "/lod-site/static/js/main.94cd7368.js.map",
     "787.3822e41d.chunk.js.map": "/lod-site/static/js/787.3822e41d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.6b93fa95.js"
+    "static/js/main.94cd7368.js"
   ]
 }
