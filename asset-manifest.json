@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/lod-site/static/css/main.e6c13ad2.css",
-    "main.js": "/lod-site/static/js/main.55564ec8.js",
+    "main.js": "/lod-site/static/js/main.8663388f.js",
     "static/js/787.3822e41d.chunk.js": "/lod-site/static/js/787.3822e41d.chunk.js",
     "static/media/NHS-Logo_1.jpg": "/lod-site/static/media/NHS-Logo_1.4700639ea86a0749498f.jpg",
     "index.html": "/lod-site/index.html",
     "main.e6c13ad2.css.map": "/lod-site/static/css/main.e6c13ad2.css.map",
-    "main.55564ec8.js.map": "/lod-site/static/js/main.55564ec8.js.map",
+    "main.8663388f.js.map": "/lod-site/static/js/main.8663388f.js.map",
     "787.3822e41d.chunk.js.map": "/lod-site/static/js/787.3822e41d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.55564ec8.js"
+    "static/js/main.8663388f.js"
   ]
 }
