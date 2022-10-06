@@ -16,7 +16,7 @@ export default function Statmand() {
           {/* Conflict Resolution */}
 
           <h2 className='subject-title'>Conflict Resolution (tri-annually for all staff):</h2>
-          <a target="_blank" rel="noreferrer" href="https://portal.e-lfh.org.uk/Component/Details/544087">
+          <a target="_blank" rel="noreferrer" href="#">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                 {/* //Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. */}
@@ -207,6 +207,21 @@ export default function Statmand() {
 </a>
 </TextCont>
 
+ {/* Moving and Handling  */}
+
+ <TextCont>
+
+<h2 className='subject-title'>Moving and Handling (bi-annual for clinical staff/tri-annual for non clinical staff)</h2>
+<a target="_blank" rel="noreferrer" href="#">
+  <div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+      {/* //Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. */}
+      <path d="M0 192H176V0H160C71.6 0 0 71.6 0 160v32zm0 32V352c0 88.4 71.6 160 160 160h64c88.4 0 160-71.6 160-160V224H192 0zm384-32V160C384 71.6 312.4 0 224 0H208V192H384z"/></svg>
+      <h3 className='subjet-subtitle'>NEED TO ADD DOCUMENTS/EMAIL</h3>
+  </div>
+</a>
+</TextCont>
+
       </div>
       
       </CourseCont>
@@ -215,7 +230,7 @@ export default function Statmand() {
   }
 
   const TextCont = styled.div`
-background: lightgrey;
+background: #E8EDEE;
 padding: 3px;
 margin-top: 2%;
 border-radius: 7px;
@@ -243,7 +258,7 @@ h3{
 }
 svg{
   height: 25px;
-  fill: grey;
+  fill: #425563;
   margin: 0 5px;
 }
 
@@ -253,7 +268,7 @@ svg{
 
 const CourseCont = styled.div`
 display: flex;
-margin: 3% 2% 0% 2%;
+margin: 0% 2% 0% 2%;
 @media only screen and (max-width: 700px) {
   display: block;
 }

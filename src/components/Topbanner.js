@@ -14,15 +14,17 @@ export default function Topbanner(props) {
 
   const TopBannerCont = styled.div`
     
-    background-color: black;
+    background-color: #425563;
     height: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 3% 2% 0% 2%;
+    margin: 1% 2% 0% 2%;
     border-radius: 7px;;
     border-radius: 7px;
-
+    @media only screen and (max-width:400px) {
+        height: 5%;
+      }
     img{
         height: 100px;
         margin-left: 30px;
@@ -30,10 +32,13 @@ export default function Topbanner(props) {
     } 
  
     p{
-        color: white;
+        color: #E8EDEE;
         font-size: 50px;
         font-weight: bold;
         margin-left: 3%;
+        @media only screen and (max-width: 700px) {
+            font-size: 25px;
+          }
     }
 
    

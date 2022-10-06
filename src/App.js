@@ -38,8 +38,8 @@ class App extends Component {
         <div>
         <HeaderCont>
             <div className="top-nav">
-    {/* <img className="title-logo" src="NHS-Logo_1.jpg" alt="NHS Logo" /> */}
-    <div className='fake-image'><p>Logo</p></div>
+            <img className="title-logo" src="./lod-site/NHS-Logo_1.jpg" alt="NHS Logo" />
+    {/* <div className='fake-image'><p>Logo</p></div> */}
     <h1>Learning and OD</h1>
 </div>
 <div className="bottom-nav">
@@ -119,9 +119,9 @@ a{
     color: white;
     font-size: 20px;
     font-family: arial;
-    text-decoration: none;
-    @media only screen and (max-width: 550px) {
-      font-size: 9px;
+    text-decoration: underline;
+    @media only screen and (max-width: 600px) {
+      font-size: 12px;
     }
 }
 
