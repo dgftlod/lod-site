@@ -7,7 +7,7 @@ export default function Topbanner(props) {
     return (
         <TopBannerCont>
           <p className='title'>{props.title}</p>
-          <img src={props.src} alt="OD logo" />
+          {/* <img src={props.src} alt="OD logo" /> */}
           </TopBannerCont>
     );
   }

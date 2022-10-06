@@ -120,6 +120,9 @@ a{
     font-size: 20px;
     font-family: arial;
     text-decoration: none;
+    @media only screen and (max-width: 550px) {
+      font-size: 9px;
+    }
 }
 
 input{

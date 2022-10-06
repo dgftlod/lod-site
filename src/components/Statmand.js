@@ -69,19 +69,48 @@ export default function Statmand() {
       </TextCont>
 
       <TextCont>
-          {/* Non-Clinical Infection Control */}
+          {/* Resuscitation and Life Support (all clinical staff annually) */}
         
-          <h2 className='subject-title'>Infection Control for Non-Clinical Staff (tri annually for non-clinical staff) </h2>
-          <a target="_blank" rel="noreferrer" href="https://portal.e-lfh.org.uk/component/details/459777">
+          <h2 className='subject-title'>Resuscitation and Life Support (all clinical staff annually)</h2>
+          <a target="_blank" rel="noreferrer" href="#">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                 {/* //Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. */}
                 <path d="M0 192H176V0H160C71.6 0 0 71.6 0 160v32zm0 32V352c0 88.4 71.6 160 160 160h64c88.4 0 160-71.6 160-160V224H192 0zm384-32V160C384 71.6 312.4 0 224 0H208V192H384z"/></svg>
-                <h3 className='subjet-subtitle'>DOCUMENT TO BE ADDED</h3>
+                <h3 className='subjet-subtitle'>INTERNAL LINK?</h3>
             </div>
           </a>
       </TextCont>
 
+      <TextCont>
+          {/* information Governance */}
+        
+          <h2 className='subject-title'>Information Governance and Data Security (tri annually for all​ staff)</h2>
+          <a target="_blank" rel="noreferrer" href="https://portal.e-lfh.org.uk/Component/Details/544107">
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                {/* //Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. */}
+                <path d="M0 192H176V0H160C71.6 0 0 71.6 0 160v32zm0 32V352c0 88.4 71.6 160 160 160h64c88.4 0 160-71.6 160-160V224H192 0zm384-32V160C384 71.6 312.4 0 224 0H208V192H384z"/></svg>
+                <h3 className='subjet-subtitle'>eLearning for Health (set employer to The Dudley Group​ - Code RNA)</h3>
+            </div>
+          </a>
+      </TextCont>
+
+
+      
+      <TextCont>
+          {/* Advanced Mental Capacity Act */}
+        
+          <h2 className='subject-title'>Advanced Mental Capacity Act for all staff requiring Level 3 Adult Safeguarding, Consultants, Registrars, Nursing and AHP staff of bands 6 and above)</h2>
+          <a target="_blank" rel="noreferrer" href="#">
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                {/* //Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. */}
+                <path d="M0 192H176V0H160C71.6 0 0 71.6 0 160v32zm0 32V352c0 88.4 71.6 160 160 160h64c88.4 0 160-71.6 160-160V224H192 0zm384-32V160C384 71.6 312.4 0 224 0H208V192H384z"/></svg>
+                <h3 className='subjet-subtitle'>LINK DATES AND EMAIL ADDRESS</h3>
+            </div>
+          </a>
+      </TextCont>
       </div>
 
       {/* Column Break */}
@@ -144,6 +173,36 @@ export default function Statmand() {
       {/* //Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. */}
       <path d="M0 192H176V0H160C71.6 0 0 71.6 0 160v32zm0 32V352c0 88.4 71.6 160 160 160h64c88.4 0 160-71.6 160-160V224H192 0zm384-32V160C384 71.6 312.4 0 224 0H208V192H384z"/></svg>
       <h3 className='subjet-subtitle'>NEEDS TO BE UPDATED</h3>
+  </div>
+</a>
+</TextCont>
+
+ {/* Non-Clinical Infection Control  */}
+
+ <TextCont>
+
+<h2 className='subject-title'>Infection Control for Non-Clinical Staff (tri annually for non-clinical staff)</h2>
+<a target="_blank" rel="noreferrer" href="https://portal.e-lfh.org.uk/component/details/459777">
+  <div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+      {/* //Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. */}
+      <path d="M0 192H176V0H160C71.6 0 0 71.6 0 160v32zm0 32V352c0 88.4 71.6 160 160 160h64c88.4 0 160-71.6 160-160V224H192 0zm384-32V160C384 71.6 312.4 0 224 0H208V192H384z"/></svg>
+      <h3 className='subjet-subtitle'>NEEDS TO BE UPDATED</h3>
+  </div>
+</a>
+</TextCont>
+
+ {/* Level 1 Mental Health Act Law  */}
+
+ <TextCont>
+
+<h2 className='subject-title'>Mental Health Law Awareness for clinicial staff not requiring the Advanced Mental Capacity Act training</h2>
+<a target="_blank" rel="noreferrer" href="#">
+  <div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+      {/* //Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. */}
+      <path d="M0 192H176V0H160C71.6 0 0 71.6 0 160v32zm0 32V352c0 88.4 71.6 160 160 160h64c88.4 0 160-71.6 160-160V224H192 0zm384-32V160C384 71.6 312.4 0 224 0H208V192H384z"/></svg>
+      <h3 className='subjet-subtitle'>NEED TO ADD DOCUMENT</h3>
   </div>
 </a>
 </TextCont>
