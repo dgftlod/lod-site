@@ -29,6 +29,7 @@ import Home from './components/Home';
 import Statmand from './components/Statmand';
 import Apprenticeships from './components/Apprenticeships';
 import Contact from './components/Contact';
+import NHSlogo from "./images/NHS-Logo_1.jpg"
 
 
 class App extends Component {
@@ -38,19 +39,20 @@ class App extends Component {
         <div>
         <HeaderCont>
             <div className="top-nav">
-            <img className="title-logo" src="./lod-site/NHS-Logo_1.jpg" alt="NHS Logo" />
+            <img className="title-logo" src={NHSlogo} alt="NHS Logo" />
     {/* <div className='fake-image'><p>Logo</p></div> */}
     <h1>Learning and OD</h1>
 </div>
-<div className="bottom-nav">
+{/* <div className="bottom-nav">
     <a href="#"><Link to={'/'} > OD </Link></a>
     <a href="#"><Link to={'/apprenticeships'} >Apprenticeships</Link></a>
     <a href="#"><Link to={'/statmand'} >Statutory and Mandated</Link></a>
     <a href="#"><Link to={'/contact'} >Contact Us</Link></a>
   
-</div>
+</div> */}
       
         </HeaderCont>
+        <Statmand/>
           <Routes>
               <Route path='/' element={<Home/>} />
               <Route path='/apprenticeships' element={<Apprenticeships/>} />
@@ -113,6 +115,9 @@ h1{
     font-weight: 700;
     font-size: 35px;
     font-family: arial;
+    @media only screen and (max-width: 600px) {
+      font-size: 20px;
+    }
 }
 
 a{

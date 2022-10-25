@@ -7,7 +7,7 @@ export default function Statmand() {
 
     return (
       <>
-      <Topbanner title="Statutory and Mandated Training" >
+      <Topbanner title="Statutory and Mandatory Training" >
       </Topbanner>
       <CourseCont>
         <div>
@@ -15,8 +15,8 @@ export default function Statmand() {
 
           {/* Conflict Resolution */}
 
-          <h2 className='subject-title'>Conflict Resolution (tri-annually for all staff):</h2>
-          <a target="_blank" rel="noreferrer" href="#">
+          <h2 className='subject-title'>Conflict Resolution (tri-annually for all staff)</h2>
+          <a target="_blank" rel="noreferrer" href="https://portal.e-lfh.org.uk/Component/Details/544087">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                 {/* //Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. */}
@@ -29,7 +29,7 @@ export default function Statmand() {
           <TextCont>
           {/* W.R.A.P/PrevenT */}
         
-          <h2 className='subject-title'>W.R.A.P/Prevent (all Trust staff tri-annually) </h2>
+          <h2 className='subject-title'>Prevent (all Trust staff tri-annually) </h2>
           <a target="_blank" rel="noreferrer" href="https://portal.e-lfh.org.uk/Component/Details/544137">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
@@ -44,12 +44,12 @@ export default function Statmand() {
           {/* Adult and Child Safeguarding */}
         
           <h2 className='subject-title'>Adult and Child Safeguarding (Levels 1, 2 or 3 tri-annually) </h2>
-          <a target="_blank" rel="noreferrer" href="https://portal.e-lfh.org.uk/Component/Details/544137">
+          <a target="_blank" rel="noreferrer" href="http://thehub/learning-development/SiteAssets/SGGuide.July2022.AEB.10.06.22.pdf">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                 {/* //Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. */}
-                <path d="M0 192H176V0H160C71.6 0 0 71.6 0 160v32zm0 32V352c0 88.4 71.6 160 160 160h64c88.4 0 160-71.6 160-160V224H192 0zm384-32V160C384 71.6 312.4 0 224 0H208V192H384z"/></svg>
-                <h3 className='subjet-subtitle'>DOCUMENT TO BE ADDED</h3>
+                <path d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128z"/></svg>
+                <h3 className='subjet-subtitle'>Guidance document accessible through hub (link)</h3>
             </div>
           </a>
       </TextCont>
@@ -63,7 +63,7 @@ export default function Statmand() {
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                 {/* //Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. */}
                 <path d="M0 192H176V0H160C71.6 0 0 71.6 0 160v32zm0 32V352c0 88.4 71.6 160 160 160h64c88.4 0 160-71.6 160-160V224H192 0zm384-32V160C384 71.6 312.4 0 224 0H208V192H384z"/></svg>
-                <h3 className='subjet-subtitle'>DOCUMENT TO BE ADDED</h3>
+                <h3 className='subjet-subtitle'>eLearning for Health (set employer to The Dudley Group​ - Code RNA)</h3>
             </div>
           </a>
       </TextCont>
@@ -72,12 +72,12 @@ export default function Statmand() {
           {/* Resuscitation and Life Support (all clinical staff annually) */}
         
           <h2 className='subject-title'>Resuscitation and Life Support (all clinical staff annually)</h2>
-          <a target="_blank" rel="noreferrer" href="#">
+          <a target="_blank" rel="noreferrer" href="http://thehub/resuscitation-and-sepsis/SitePages/Home.aspx">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                 {/* //Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. */}
                 <path d="M0 192H176V0H160C71.6 0 0 71.6 0 160v32zm0 32V352c0 88.4 71.6 160 160 160h64c88.4 0 160-71.6 160-160V224H192 0zm384-32V160C384 71.6 312.4 0 224 0H208V192H384z"/></svg>
-                <h3 className='subjet-subtitle'>INTERNAL LINK?</h3>
+                <h3 className='subjet-subtitle'>​This subject is booked, delivered and recorded by the Resuscitation Department (Hub site available here)​​</h3>
             </div>
           </a>
       </TextCont>
@@ -102,12 +102,12 @@ export default function Statmand() {
           {/* Advanced Mental Capacity Act */}
         
           <h2 className='subject-title'>Advanced Mental Capacity Act for all staff requiring Level 3 Adult Safeguarding, Consultants, Registrars, Nursing and AHP staff of bands 6 and above)</h2>
-          <a target="_blank" rel="noreferrer" href="#">
+          <a target="_blank" rel="noreferrer" href="http://thehub/mental-health/SitePages/Home.aspx">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                 {/* //Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. */}
                 <path d="M0 192H176V0H160C71.6 0 0 71.6 0 160v32zm0 32V352c0 88.4 71.6 160 160 160h64c88.4 0 160-71.6 160-160V224H192 0zm384-32V160C384 71.6 312.4 0 224 0H208V192H384z"/></svg>
-                <h3 className='subjet-subtitle'>LINK DATES AND EMAIL ADDRESS</h3>
+                <h3 className='subjet-subtitle'>Dates and information available through the Hub (link)</h3>
             </div>
           </a>
       </TextCont>
@@ -135,7 +135,7 @@ export default function Statmand() {
 
           {/* Fire Safety */}
 
-          <h2 className='subject-title'>Fire Safety and Prevention (tri-annually for all staff)</h2>
+          <h2 className='subject-title'>Fire Safety and Prevention (annually for all staff)</h2>
           <a target="_blank" rel="noreferrer" href="https://portal.e-lfh.org.uk/Component/Details/544063">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
@@ -151,15 +151,17 @@ export default function Statmand() {
 
           <TextCont>
 
-          <h2 className='subject-title'>Clinical Governance and Risk (annual for all staff - NEED TO CONFIRM):</h2>
-          <a target="_blank" rel="noreferrer" href="https://portal.e-lfh.org.uk/Component/Details/544078">
+          <h2 className='subject-title'>Clinical Governance and Risk (tri-annually for all staff):</h2>
+          <a target="_blank" rel="noreferrer" href="http://thehub/learning-development/SiteAssets/Clinical%20Governance%20-%20Its%20a%20Risky%20Business%20.pdf">
             <div>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+              <svg className='double-height' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                 {/* //Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. */}
-                <path d="M0 192H176V0H160C71.6 0 0 71.6 0 160v32zm0 32V352c0 88.4 71.6 160 160 160h64c88.4 0 160-71.6 160-160V224H192 0zm384-32V160C384 71.6 312.4 0 224 0H208V192H384z"/></svg>
-                <h3 className='subjet-subtitle'>NEEDS TO BE UPDATED</h3>
+                <path d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128z"/></svg>
+                <h3 className='subjet-subtitle'>Self Declaration of completion - Accessed through the Hub (email receipt of understanding to dgft.learning@nhs.net)</h3>
             </div>
           </a>
+
+          
       </TextCont>
 
        {/* Clinical Infection Control  */}
@@ -172,7 +174,7 @@ export default function Statmand() {
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
       {/* //Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. */}
       <path d="M0 192H176V0H160C71.6 0 0 71.6 0 160v32zm0 32V352c0 88.4 71.6 160 160 160h64c88.4 0 160-71.6 160-160V224H192 0zm384-32V160C384 71.6 312.4 0 224 0H208V192H384z"/></svg>
-      <h3 className='subjet-subtitle'>NEEDS TO BE UPDATED</h3>
+      <h3 className='subjet-subtitle'>eLearning for Health (set employer to The Dudley Group​ - Code RNA)</h3>
   </div>
 </a>
 </TextCont>
@@ -187,7 +189,7 @@ export default function Statmand() {
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
       {/* //Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. */}
       <path d="M0 192H176V0H160C71.6 0 0 71.6 0 160v32zm0 32V352c0 88.4 71.6 160 160 160h64c88.4 0 160-71.6 160-160V224H192 0zm384-32V160C384 71.6 312.4 0 224 0H208V192H384z"/></svg>
-      <h3 className='subjet-subtitle'>NEEDS TO BE UPDATED</h3>
+      <h3 className='subjet-subtitle'>eLearning for Health (set employer to The Dudley Group​ - Code RNA)</h3>
   </div>
 </a>
 </TextCont>
@@ -197,12 +199,12 @@ export default function Statmand() {
  <TextCont>
 
 <h2 className='subject-title'>Mental Health Law Awareness for clinicial staff not requiring the Advanced Mental Capacity Act training</h2>
-<a target="_blank" rel="noreferrer" href="#">
+<a target="_blank" rel="noreferrer" href="http://thehub/learning-development/SitePages/StatutoryP1.aspx">
   <div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
       {/* //Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. */}
       <path d="M0 192H176V0H160C71.6 0 0 71.6 0 160v32zm0 32V352c0 88.4 71.6 160 160 160h64c88.4 0 160-71.6 160-160V224H192 0zm384-32V160C384 71.6 312.4 0 224 0H208V192H384z"/></svg>
-      <h3 className='subjet-subtitle'>NEED TO ADD DOCUMENT</h3>
+      <h3 className='subjet-subtitle'>Face to Face (Hub Link)</h3>
   </div>
 </a>
 </TextCont>
@@ -212,12 +214,12 @@ export default function Statmand() {
  <TextCont>
 
 <h2 className='subject-title'>Moving and Handling (bi-annual for clinical staff/tri-annual for non clinical staff)</h2>
-<a target="_blank" rel="noreferrer" href="#">
+<a target="_blank" rel="noreferrer" href="http://thehub/core-skills/SitePages/Home.aspx">
   <div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+    <svg className='double-height' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
       {/* //Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. */}
       <path d="M0 192H176V0H160C71.6 0 0 71.6 0 160v32zm0 32V352c0 88.4 71.6 160 160 160h64c88.4 0 160-71.6 160-160V224H192 0zm384-32V160C384 71.6 312.4 0 224 0H208V192H384z"/></svg>
-      <h3 className='subjet-subtitle'>NEED TO ADD DOCUMENTS/EMAIL</h3>
+      <h3 className='subjet-subtitle'>For CSW, Nursing, Midwifery, and AHP Clinical staff requiring practical training please click here to book available sessions</h3>
   </div>
 </a>
 </TextCont>
@@ -258,8 +260,11 @@ h3{
 }
 svg{
   height: 25px;
-  fill: #425563;
+  fill: #00A9CE;
   margin: 0 5px;
+}
+.double-height{
+  height: 37.5px;
 }
 
 

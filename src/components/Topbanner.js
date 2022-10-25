@@ -14,7 +14,13 @@ export default function Topbanner(props) {
 
   const TopBannerCont = styled.div`
     
-    background-color: #425563;
+  background: hsla(209, 100%, 36%, 1);
+
+  background: linear-gradient(135deg, hsla(209, 100%, 36%, 1) 0%, hsla(191, 100%, 40%, 1) 100%);
+  
+  background: -moz-linear-gradient(135deg, hsla(209, 100%, 36%, 1) 0%, hsla(191, 100%, 40%, 1) 100%);
+  
+  background: -webkit-linear-gradient(135deg, hsla(209, 100%, 36%, 1) 0%, hsla(191, 100%, 40%, 1) 100%);
     height: 15%;
     display: flex;
     align-items: center;
