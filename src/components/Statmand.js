@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import Topbanner from './Topbanner';
 import styled from 'styled-components';
 
+// Component containing the Stat/mand training page
 
 export default function Statmand() {
 
     return (
       <>
-      <Topbanner title="Statutory and Mandatory Training" >
+      <Topbanner title="Statutory and Mandatory Training" email="dgft.learning@nhs.net" >
       </Topbanner>
       <CourseCont>
         <div>

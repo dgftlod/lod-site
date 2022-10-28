@@ -1,26 +1,3 @@
-// import Header from "./components/header";
-// import {
-//   BrowserRouter as Router,
-//   Switch,
-//   Route,
-//   Link
-// } from "react-router-dom";
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <>
-//         <Header />
-//         </>
-      
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import styled from 'styled-components';
 
 import React, { Component } from 'react';
@@ -29,7 +6,7 @@ import Home from './components/Home';
 import Statmand from './components/Statmand';
 import Apprenticeships from './components/Apprenticeships';
 import Contact from './components/Contact';
-import NHSlogo from "./images/NHS-Logo_1.jpg"
+import NHSlogo from "./images/The-Dudley-Group-NHS-Foundation-Trust-RGB-BLUE.png"
 
 
 class App extends Component {
@@ -39,10 +16,14 @@ class App extends Component {
         <div>
         <HeaderCont>
             <div className="top-nav">
+            <h1>Learning and OD</h1>
             <img className="title-logo" src={NHSlogo} alt="NHS Logo" />
     {/* <div className='fake-image'><p>Logo</p></div> */}
-    <h1>Learning and OD</h1>
+
 </div>
+
+{/* router commented out until the additional pages are required */}
+
 {/* <div className="bottom-nav">
     <a href="#"><Link to={'/'} > OD </Link></a>
     <a href="#"><Link to={'/apprenticeships'} >Apprenticeships</Link></a>
@@ -53,12 +34,12 @@ class App extends Component {
       
         </HeaderCont>
         <Statmand/>
-          <Routes>
+          {/* <Routes>
               <Route path='/' element={<Home/>} />
               <Route path='/apprenticeships' element={<Apprenticeships/>} />
               <Route path='/statmand' element={<Statmand/>} />
               <Route path='/contact' element={<Contact/>} />
-   </Routes>
+   </Routes> */}
           <hr />
         </div>
       </Router>
@@ -73,19 +54,15 @@ export default App;
 const HeaderCont = styled.div`
 background: white;
 border-bottom: 1px solid rgb(0, 114, 206);
-padding-bottom: 15px;
+padding-bottom: 10px;
 
   .title-logo{
     
-      height: 50px;
+      height: 120px;
+      padding-top: 20px;
   
   }
 
-  .fake-image{
-    height: 50px;
-    background-color: rgb(0, 94, 184);
-    width: 100px;
-  }
 
   p{
     color: black;
