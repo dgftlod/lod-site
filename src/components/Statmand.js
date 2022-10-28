@@ -8,7 +8,7 @@ export default function Statmand() {
 
     return (
       <>
-      <Topbanner title="Statutory and Mandatory Training" email="dgft.learning@nhs.net" >
+      <Topbanner title="Statutory and Mandatory Training" email="for information and questions please email: dgft.learning@nhs.net" >
       </Topbanner>
       <CourseCont>
         <div>
