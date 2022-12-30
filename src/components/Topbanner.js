@@ -1,16 +1,26 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
+
 // Component containing the banner across the top of each page
 
 export default function Topbanner(props) {
-
+const img = props.img
+if(props.img){
     return (
         <TopBannerCont>
+          <img src={props.img} alt="" />
           <h2 className='title'>{props.title}</h2>
           <p className='email'>{props.email}</p>
           </TopBannerCont>
     );
+}
+return (
+  <TopBannerCont>
+    <h2 className='title'>{props.title}</h2>
+    <p className='email'>{props.email}</p>
+    </TopBannerCont>
+);
   }
 
   const TopBannerCont = styled.div`
@@ -36,6 +46,7 @@ export default function Topbanner(props) {
     } 
  
     h2{
+        margin-top: 0px;
         color: #E8EDEE;
         font-size: 50px;
         font-weight: bold;
@@ -51,6 +62,11 @@ export default function Topbanner(props) {
       @media only screen and (max-width: 850px) {
           font-size: 12px;
         }
+    }
+    
+    img{
+      margin-top: 10px;
+      height: 100px;
     }
     
 

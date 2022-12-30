@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Topbanner from './Topbanner';
 import styled from 'styled-components';
+import LDlogo from '../images/LDlogo.png'
 
 // Component containing the Stat/mand training page
 
@@ -8,7 +9,7 @@ export default function Statmand() {
 
     return (
       <>
-      <Topbanner title="Statutory and Mandatory Training" email="for information and questions please email: dgft.learning@nhs.net" >
+      <Topbanner title="Statutory and Mandatory Training" email="for information and questions please email: dgft.learning@nhs.net" img={LDlogo} >
       </Topbanner>
       <CourseCont>
         <div>
