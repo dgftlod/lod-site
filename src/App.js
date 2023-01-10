@@ -9,6 +9,8 @@ import Contact from './components/Contact';
 import Workexperience from './components/Workexperience';
 import NHSlogo from "./images/The-Dudley-Group-NHS-Foundation-Trust-RGB-BLUE.png"
 import LODlogo from "./images/LOD.png"
+import Apprenticeshipsmanagers from './components/Apprenticeshipsmanagers';
+import Newapprentices from './components/Newapprentices';
 
 
 class App extends Component {
@@ -25,7 +27,6 @@ class App extends Component {
 
 </div>
 
-{/* router commented out until the additional pages are required */}
 
 <div className="bottom-nav">
     <a href="#"><Link to={'/'} >OD</Link></a>
@@ -40,6 +41,8 @@ class App extends Component {
           <Routes>
               <Route path='/' element={<Home/>} />
               <Route path='/apprenticeships' element={<Apprenticeships/>} />
+                <Route path='/apprenticeships/apprenticeshipsmanagers' element={<Apprenticeshipsmanagers />} />
+                <Route path='/apprenticeships/newapprentices' element={<Newapprentices />} />
               <Route path='/workexperience' element={<Workexperience/>} />
               <Route path='/statmand' element={<Statmand/>} />
               <Route path='/contact' element={<Contact/>} />
